@@ -1,0 +1,207 @@
+@import url('');
+
+body {background-color: rgb(232, 232, 232);}
+
+
+@font-face{
+	font-family:"Atto";
+	src:url(atto-regular.ttf);
+	font-style: normal;
+}
+
+@font-face{
+	font-family:"Ogg";
+	src:url(Ogg-Regular.ttf);
+	font-style: normal;
+}
+
+
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+
+img{
+	display: none
+ }
+
+ span:hover + img{
+	 display: block;
+ }
+
+#dorm{
+	position: absolute;
+	top: 400px;
+	left: 400px;
+}
+
+#fifteenwest{
+	position: absolute;
+	top:600px;
+}
+
+#broadway{
+	position: absolute;
+	top: 600px;
+	left: 600px;
+}
+
+#amsterdamave2{
+	position: absolute;
+	top: 800px;
+	left: 400px;
+}
+
+#beaverglen{
+	position: absolute;
+	top: 14em;
+	right: 3em;
+}
+
+#luxunpark{
+	position: absolute;
+	top:50em;
+	right: 1em;
+}
+
+#enloe{
+	position: absolute;
+	top: 90em;
+	left: 3em;
+}
+
+#trianglerockclub{
+	position:absolute;
+	top: 110em;
+	right: 8em;
+}
+
+#kokusaikaikan{
+	position: absolute;
+	top: 100em;
+	left: 4em;
+}
+.blurry-text {
+	color: transparent;
+	text-shadow: 0 0 32px white;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 2px solid#1d7b1d;
+  }​
+
+
+
+.example {
+	/* background: #1d7b1d; */
+	font-family: 'Gotham-Light', sans-serif;
+	color: #1d7b1d;
+	position: relative;
+	width: 400px;
+	top: -15px;
+	left: 100px;
+}
+
+.container {
+	height: 90vh;
+	margin: 2rem;
+	padding: 2em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 3em;
+	grid-row-gap: 3em;
+}
+
+.cell {
+	color: white;
+	font-size: 3rem;
+	text-align: left;
+	padding: 4rem;
+	font-family: 'Ogg',serif;
+	/* color: white; */
+	font-size: 2em;
+}
+
+h1 {
+	font-family: 'Ogg',serif;
+	color: white;
+	font-size: 4em;
+	font-weight:normal;
+	margin-left: 1em;
+	line-height: 1em;
+}
+
+h2 {
+	font-family: 'Ogg', serif;
+	color: white;
+	font-size: 2em;
+	border: 2px solid white;
+	padding: 1.5em;
+	margin: 2em;
+	/* width: 5fr; */
+	box-sizing: border-box;
+	font-weight: normal;
+}
+
+p {
+	font-family: Atto, sans-serif;
+	color: white;
+	font-size: 15px; 
+	font-style: italic;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+
+/* 
+.cell-1 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-2 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-3 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-4 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-5 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-6 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-7 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-8 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+.cell-9 {
+	background: rgb(232, 232, 232);
+	border: 2px solid white;
+}
+
+#title {
+	font-size: 3em;
+} */
